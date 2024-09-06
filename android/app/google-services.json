@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "823007096408",
+    "firebase_url": "https://edco-envymusic-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "edco-envymusic",
+    "storage_bucket": "edco-envymusic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823007096408:android:075ea5d703b737d23a242d",
+        "android_client_info": {
+          "package_name": "com.edencorp.envymusic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823007096408-v4n2dsgct9kj500559l8p18l102uu765.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDne7mRv8p2erhl9Ssz2D_0KSwXbt3AcuQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823007096408-v4n2dsgct9kj500559l8p18l102uu765.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "823007096408-nlnucsp311h5utcgn6mcfsc6hg4qhfeh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.musicplayer"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

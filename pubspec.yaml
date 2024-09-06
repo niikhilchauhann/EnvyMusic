@@ -1,0 +1,88 @@
+name: envymusic
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.1+2
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+
+  cloud_firestore: ^4.0.2
+  google_nav_bar: ^5.0.6
+  flutter_carousel_slider: ^1.0.9
+  firebase_core: ^2.1.0
+  firebase_storage: ^11.0.2
+  on_audio_query: ^2.6.1
+  permission_handler: ^10.1.0
+  audio_video_progress_bar: ^0.11.0
+  just_audio: ^0.9.29
+  flutter_native_splash: ^2.2.11
+  rxdart: ^0.27.5
+  just_audio_background: ^0.0.1-beta.7
+  
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.10.0"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "lib/assets/image/appicon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^2.0.0
+  
+flutter_native_splash:
+
+  color: "#000000"
+  # The image parameter allows you to specify an image used in the splash screen.  It must be a
+  # png file and should be sized for 4x pixel density.
+  image: lib/assets/image/splash.png
+  color_dark: "#042a49"
+  image_dark: lib/assets/image/splash.png
+
+  android_12:
+    # Please note that the splash screen will be clipped to a circle on the center of the screen.
+    # App icon with an icon background: This should be 960×960 pixels, and fit within a circle
+    # 640 pixels in diameter.
+    # App icon without an icon background: This should be 1152×1152 pixels, and fit within a circle
+    # 768 pixels in diameter.
+    image: lib/assets/image/splash.png
+    color: "#000000"
+    image_dark: lib/assets/image/splash.png
+    color_dark: "#000000"
+
+  web: false
+
+  
+flutter:
+
+  uses-material-design: true
+  
+
+
+  assets:
+    - lib/assets/image/
+  fonts:
+    - family: Jost
+      fonts:
+        - asset: lib\assets\fonts\Jost\Jost-Medium.ttf
+        - asset: lib\assets\fonts\Jost\Jost-SemiBold.ttf
+    - family: Josefin_Sans
+      fonts:
+        - asset: lib\assets\fonts\Josefin_Sans\JosefinSans-Medium.ttf
+        - asset: lib\assets\fonts\Josefin_Sans\JosefinSans-Regular.ttf
+        - asset: lib\assets\fonts\Josefin_Sans\JosefinSans-SemiBold.ttf
+    - family: HKGrotesk
+      fonts:
+        - asset: lib\assets\fonts\HKGrotesk\HKGrotesk-Bold.otf
+        - asset: lib\assets\fonts\HKGrotesk\HKGrotesk-Medium.otf
