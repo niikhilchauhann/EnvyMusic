@@ -82,7 +82,3 @@ flutter:
         - asset: lib\assets\fonts\Josefin_Sans\JosefinSans-Medium.ttf
         - asset: lib\assets\fonts\Josefin_Sans\JosefinSans-Regular.ttf
         - asset: lib\assets\fonts\Josefin_Sans\JosefinSans-SemiBold.ttf
-    - family: HKGrotesk
-      fonts:
-        - asset: lib\assets\fonts\HKGrotesk\HKGrotesk-Bold.otf
-        - asset: lib\assets\fonts\HKGrotesk\HKGrotesk-Medium.otf
